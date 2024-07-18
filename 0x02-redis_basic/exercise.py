@@ -57,7 +57,6 @@ def replay(fn: Callable) -> None:
         ))
 
 
-
 class Cache:
     """Represents an object for storing data in a Redis data storage."""
     def __init__(self) -> None:
